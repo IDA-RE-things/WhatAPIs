@@ -1,0 +1,89 @@
+10012204h: possible vtable (2 methods)
+(SI)
+0000: std::bad_alloc
+0000:     std::exception
+ std::bad_alloc::`vftable'
+  referencing functions: 
+  .text:10001000 (2 times)
+  .text:10002430
+  .text:10002A30
+  .text:10002AD0
+  .text:10003360 (  .text:100036C5 (std::bad_alloc::bad_alloc)
+  .text:10011196
+  scalar deleting destructor: 10001010h
+
+10012210h: possible vtable (2 methods)
+(SI)
+0000: std::logic_error
+0000:     std::exception
+ std::logic_error::`vftable'
+  referencing functions: 
+  .text:10001480
+  .text:10001560 (  .text:10001570
+  .text:10001990
+  .text:10001D40
+  .text:10002230
+  .text:10002390
+  .text:100024F0
+
+1001221Ch: possible vtable (2 methods)
+(SI)
+0000: std::length_error
+0000:     std::logic_error
+0000:         std::exception
+ std::length_error::`vftable'
+  referencing functions: 
+  .text:10001990
+  .text:10001D20
+  .text:10002230
+  .text:10002390
+  .text:10002BC6 (
+10012228h: possible vtable (2 methods)
+(SI)
+0000: std::out_of_range
+0000:     std::logic_error
+0000:         std::exception
+ std::out_of_range::`vftable'
+  referencing functions: 
+  .text:100024F0
+  .text:100029B0
+  .text:10002BCC
+
+1001225Ch: possible vtable (2 methods)
+(SI)
+0000: std::exception
+ std::exception::`vftable'
+  referencing functions: 
+  .text:10002DFD (  .text:10002E10 (exception::exception)
+  .text:10002E21 (std::exception::exception)
+  .text:10002E6F (std::exception::exception)
+  .text:10002E87 (std::exception::exception)
+  scalar deleting destructor: 10002F02h
+  destructor: 10002EDFh
+
+1001227Ch: possible vtable (1 methods)
+(SI)
+0000: type_info
+ type_info::`vftable'
+  referencing functions: 
+  .text:10003292 (  scalar deleting destructor: 1000331Bh
+  destructor: 1000330Dh
+
+10012424h: possible vtable (1 methods)
+  referencing functions: 
+  .text:10006C79 (3 times) (
+1001242Ch: possible vtable (2 methods)
+(SI)
+0000: std::bad_exception
+0000:     std::exception
+ std::bad_exception::`vftable'
+  referencing functions: 
+  .text:100078AB (2 times)
+  .text:10007FF1 (FindHandlerForForeignException)
+  .text:100080E3 (FindHandler)
+  scalar deleting destructor: 100078B6h
+
+10014138h: possible vtable (3 methods)
+  referencing functions: 
+  .text:10006A51 (  .text:10006A15 (2 times)
+
